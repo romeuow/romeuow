@@ -21,8 +21,8 @@ Belo Horizonte, Brazil · [LinkedIn](https://www.linkedin.com/in/romeuow/) · ro
 
 | Period | Role | Sector | Scope |
 |---|---|---|---|
-| Jun 2026 – present | AI Software Developer | Energy | Voice and chat agents integrated with the CRM, company-wide MCP server, LLM-based conversation grading, Claude Enterprise skills |
-| Jul 2025 – Jun 2026 | AI Software Developer | Sustainability consulting | RAG assistants with source citations, SQL and semantic-search agents, document pipelines, AI backend-for-frontend |
+| Apr 2026 – present | AI Software Developer | Energy | Voice and chat agents integrated with the CRM, company-wide MCP server, LLM-based conversation grading, Claude Enterprise skills |
+| Jul 2025 – Apr 2026 | AI Software Developer | Sustainability consulting | RAG assistants with source citations, SQL and semantic-search agents, document pipelines, AI backend-for-frontend |
 | Aug 2024 – Jul 2025 | AI Engineer | Performance marketing agency | RAG chatbots, database-querying agent, image processing, media data pipelines |
 | Feb 2024 – Aug 2024 | Senior Data Analyst | Performance marketing agency | Marketing data warehouse, analyses and dashboards |
 | Feb 2022 – Jan 2024 | Data Analyst | International remittance fintech | Data analysis and data science projects, visualization, cloud |
@@ -39,7 +39,7 @@ Three phases: **quality and backend** (2015 to 2021), **data** (2021 to 2024) an
 
 Problem, solution and end-to-end flow of each delivery. Code, data, client names and figures are confidential; what follows is the engineering pattern and the business outcome.
 
-### Energy sector (Jun 2026 – present)
+### Energy sector (Apr 2026 – present)
 
 **1. AI voice and chat support integrated with the CRM**
 Problem: thousands of calls and messages a month hitting a human first-level support team, with customer information scattered across CRM, analytics database and billing.
@@ -59,7 +59,7 @@ Solution: a pipeline that grades every conversation against a versioned rubric, 
 Flow: conversation extraction → PII redaction → parallel grading per criterion (LangGraph) with structured output → evidence verification → risk rules → report and alerts. Prompt regression in CI prevents a rubric tweak from silently degrading scores.
 Outcome: full coverage, consistent ranking and same-day compliance alerts.
 
-### Sustainability consulting (Jul 2025 – Jun 2026)
+### Sustainability consulting (Jul 2025 – Apr 2026)
 
 **4. Internal policy assistant with source citations**
 Problem: employees lost time hunting for rules across dozens of policies and HR answered the same questions repeatedly.
